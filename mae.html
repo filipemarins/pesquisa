@@ -1,0 +1,478 @@
+<!doctype HTML>
+<html>
+<head>
+
+<!-- jQuery -->
+<script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+<!-- jQuery easing plugin -->
+<script src="jquery.easing.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<meta charset="utf-8">
+
+</head>
+<body>
+	<div class="flakes-frame">
+
+		<div class="flakes-navigation">
+			<a href="index.html" class="logo">
+				<img src="img/logo.png" width="120">
+			</a>
+
+			<ul>
+				<li class="title">Etapas</li>
+				<li>Nav Item 1</li>
+				<li>Nav Item 2</li>
+				<li>Nav Item 3</li>
+				<li>Nav Item 4</li>
+			</ul>
+
+			<p class="foot">
+				Hello <b>John Doe</b><br>
+				<a href="">My Account</a> &bullet; <a href="">Logout</a>
+			</p>
+		</div>
+
+		<div class="flakes-content">
+
+			<div class="flakes-mobile-top-bar">
+				<a href="" class="logo-wrap">
+					<img src="img/logo.png" height="30px">
+				</a>
+
+				<a href="" class="navigation-expand-target">
+					<img src="img/site-wide/navigation-expand-target.png" height="26px">
+				</a>
+			</div>
+
+			<div class="view-wrap">
+				
+				<div class="grid-2 gutter-40">
+					<div class="span-2">
+						<form id="msform" class="grid-form">
+							<fieldset class="fields">
+								<h2 class="fs-title centraltitulo">Dados Pessoais</h2>
+								<h3 class="fs-subtitle">Etapa 1</h3>
+								<div class="fs-error"></div>
+
+								<div data-row-span="2">
+									<legend>Seus Dados Pessoais</legend>
+						            <div data-field-span="2">
+						                <label>Nome Completo</label>
+						                <input type="text" name="nome" id="nome" placeholder="Nome completo" >
+						        	 </div>    	 
+						        </div>
+						        <div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Sexo</label>
+						                <label><input type="radio" name="sexo" value="m"> Masculino</label>
+						                <label><input type="radio" name="sexo" value="f"> Feminino</label>
+							    	</div>
+							    	<div data-field-span="1">
+						                <label>Data de nascimento</label>
+						                <input type="date" name="nome" id="nome" placeholder="" >
+						        	</div>   
+							    </div>
+							    <div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Cidade em que reside</label>
+						                <label><input type="text" name="cidadereside" placeholder="Cidade em que reside">
+							    	</div>
+							    	<div data-field-span="1">
+						                <label>Naturalidade</label>
+						                <input type="text" name="naturalidade" id="naturalidade" placeholder="Cidade que nasceu" >
+						        	</div>   
+							    </div>
+							    <div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Cep</label>
+						                <label><input type="text" name="cep" placeholder="Cep">
+							    	</div>
+							    	<div data-field-span="1">
+						                <label>Rua</label>
+						                <input type="text" name="rua" id="rua" placeholder="Nome da Rua / Logradouro" >
+						        	</div>   
+							    </div>
+
+							    <div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Número</label>
+						                <label><input type="text" name="numero" id="numero" placeholder="Número">
+							    	</div>
+							    	<div data-field-span="1">
+						                <label>Bairro</label>
+						                <input type="text" name="bairro" id="bairro" placeholder="Bairro" >
+						        	</div>   
+							    </div>
+							    <div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Cidade</label>
+						                <label><input type="text" name="cidade" id="cidade" placeholder="Cidade">
+							    	</div>
+							    	<div data-field-span="1">
+						                <label>Estado</label>
+						                <input type="text" name="estado" id="estado" placeholder="Estado" >
+						        	</div>   
+							    </div>
+							    <div data-row-span="2">
+							        <div data-field-span="2">
+						                <label>Email</label>
+						                <label><input type="text" name="email" id="email" placeholder="Email">
+							    	</div>  
+							    </div>
+							    <div data-row-span="2">	 
+							        <div data-field-span="1">
+						                <label>Escolaridade</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">Nenhuma</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">Ensino fundamental incompleto</option>
+											<option value="ensinofundamental" title="ensinofundamental">Ensino fundamental completo</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">Ensino médio incompleto</option>
+											<option value="ensinomediocompleto" title="ensinomediocompleto">Ensino medio completo</option>
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto">Ensino superir imcompleto</option>					
+											<option value="ensinosuperiorcompleto" title="ensinosuperiorcompleto">Ensino superir completo</option>					
+										</select>
+						    		</div>
+
+						    		<div data-field-span="1">
+						                <label>Você estuda ou estudou em:</label>
+						                <select>
+											<option value="escolapublica" title="escolapublica">Escola Pública</option>
+											<option value="escolaparticular" title="escolaparticular">Escola Particular</option>
+											<option value="naoestudei" title="naoestudei">Não estudei</option>
+									
+										</select>
+						        	</div> 
+							    	 
+						    	</div>
+
+						    	<div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Você trabalha?</label>
+						                <label><input type="radio" name="trabalha" value="s"> Sim</label>
+						                <label><input type="radio" name="trabalha" value="n"> Não</label>
+							    	</div>
+							    	<div data-field-span="1">
+						                <label>Número de horas semanais trabalhadas</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">Menos de 20 horas</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">20 a 40 horas</option>
+											<option value="ensinofundamental" title="ensinofundamental">41 a 60 horas</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">Mais 60 horas</option>				
+										</select>
+						    		</div>
+							    </div>
+							    <div data-row-span="2">
+							        <div data-field-span="2">
+						                <label>Estado civil</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">Solteiro</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">Casado</option>
+											<option value="ensinofundamental" title="ensinofundamental">Divorciado</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">Viúvo</option>				
+										</select>
+						    		</div>
+							    </div>
+							    <div data-row-span="2">
+							    	<div data-field-span="2">
+						                <label>Com quem vive (Uma ou mais opções)</label>
+						                <label><input type="checkbox"> Sozinho</label>
+						                <label><input type="checkbox"> Pais</label>
+						                <label><input type="checkbox"> Cônjuge</label>
+						                <label><input type="checkbox"> Filhos</label>
+						                <label><input type="checkbox"> Irmão(s)</label>
+						                <label><input type="checkbox"> Neto(s)</label>
+						                <label><input type="checkbox"> Ajudante Remunerado</label>
+						                <label><input type="checkbox"> Parentes 1º grau</label>
+						    		</div>
+							    </div>
+							    <div data-row-span="2">
+							    	<div data-field-span="2">
+						                <label>Convive com mais alguem? (Se sim especifique)</label>
+						                <label><input type="text" name="convive" id="convive" placeholder="Se convive com mais alguem especifique" style="width:500px;">
+						    		</div>
+							    </div>
+
+							    <div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Tipo sanguíneo</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">A</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">B</option>
+											<option value="ensinofundamental" title="ensinofundamental">O</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">AB</option>				
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto" selected>Não sei informar</option>				
+										</select>
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Fator RH</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma"> - (Negativo)</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto"> + (Positivo)</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto" selected>Não sei informar</option>						
+										</select>
+						    		</div>
+							    </div>
+
+							    <div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Peso ao nascer</label>
+						                <input type="text" name="pesonascer" placeholder="Peso ao nascer (Se não souber deixe em branco)">
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Pratica atividade fisica?</label>
+						                	<label><input type="radio" name="sexo" value="s"> Sim</label>
+						                	<label><input type="radio" name="sexo" value="n"> Não</label>
+						    		</div>
+							    </div>
+							    <div data-row-span="2">
+							        <div data-field-span="2">
+						                <label>Se sim, qual?</label>
+						                <label><input type="checkbox"> Ginástica</label>
+						                <label><input type="checkbox"> Musculação</label>
+						                <label><input type="checkbox"> Artes Marciais</label>
+						                <label><input type="checkbox"> Natação</label>
+						                <label><input type="checkbox"> Caminhada</label>
+						                <label><input type="checkbox"> Outros</label>
+						    		</div>
+							    </div>
+							    <div data-row-span="2">
+							        <div data-field-span="2">
+						                <label>Pratica outras atividades? (Especifique)</label>
+						                <input type="text" name="pesonascer" placeholder="Especifique as outras atividades">
+						    		</div>
+							    </div>
+
+							    <div class="leg"><legend>Com relação você e aos seus pais como você classifica?</legend></div>
+
+							    <div data-row-span="3">
+							    	
+							        <div data-field-span="1">
+						                <label>Pai</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">Muito gordo</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">Gordo</option>
+											<option value="ensinofundamental" title="ensinofundamental">Normal</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">Magro</option>
+											<option value="ensinomediocompleto" title="ensinomediocompleto">Muito magro</option>
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto" selected>Não sei informar</option>					
+										</select>
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Mãe</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">Muito gordo</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">Gordo</option>
+											<option value="ensinofundamental" title="ensinofundamental">Normal</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">Magro</option>
+											<option value="ensinomediocompleto" title="ensinomediocompleto">Muito magro</option>
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto" selected>Não sei informar</option>					
+										</select>
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Eu</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">Muito gordo</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">Gordo</option>
+											<option value="ensinofundamental" title="ensinofundamental">Normal</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">Magro</option>
+											<option value="ensinomediocompleto" title="ensinomediocompleto">Muito magro</option>
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto" selected>Não sei informar</option>					
+										</select>
+						    		</div>
+							    	 
+						    	</div>
+
+						    	<div class="leg"><legend>Exclusivo para mulheres</legend></div>
+						    	<div data-row-span="2">
+							        <div data-field-span="1">
+						                <label>Quantas gestações</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma" selected>Nenhuma</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">1 - Uma</option>
+											<option value="ensinofundamental" title="ensinofundamental">2 - Duas</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">3 - Três</option>
+											<option value="ensinomediocompleto" title="ensinomediocompleto">4 - Quatro</option>
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto" >5 - Cinco</option>					
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto" >6 - Seis ou mais</option>					
+										</select>
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Quantos filhos</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma" selected>Nenhum</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">1 - Um</option>
+											<option value="ensinofundamental" title="ensinofundamental">2 - Dois</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">3 - Três</option>
+											<option value="ensinomediocompleto" title="ensinomediocompleto">4 - Quatro</option>
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto" >5 - Cinco</option>					
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto" >6 - Seis ou mais</option>					
+										</select>
+						    		</div>
+							    </div>
+
+							    <div data-row-span="2">
+							        <div data-field-span="2">
+						                <label>Problema gestacional</label>
+						                <label><input type="checkbox"> Nenhum</label>
+						                <label><input type="checkbox"> Anemia</label>
+						                <label><input type="checkbox"> Diabetes gestacional</label>
+						                <label><input type="checkbox"> Hipertensão</label>
+						                <label><input type="checkbox"> Pré eclampsia</label>
+						                <label><input type="checkbox"> Outro(s)</label>
+						    		</div>
+							    </div>
+
+							    <div data-row-span="2">
+							        <div data-field-span="2">
+						                <label>Outros problemas gestacional? (Especifique)</label>
+						                <input type="text" name="problemas" placeholder="Se teve outros problemas gestacional especifique">
+						    		</div>
+							    </div>
+							    <div data-row-span="3">
+							        <div data-field-span="1">
+						                <label>Quantos partos normais? (0 se nenhum)</label>
+						                <input type="number" name="problemas" placeholder="Quantos partos normais?">
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Quantos partos cesário? (0 se nenhum)</label>
+						                <input type="number" name="problemas" placeholder="Quantos partos cesário?">
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Quantos partos fórceps? (0 se nenhum)</label>
+						                <input type="number" name="problemas" placeholder="Quantos partos fórceps?">
+						    		</div>
+							    </div>
+							    <div data-row-span="3">
+							        <div data-field-span="1">
+						                <label>Quantos partos prematuro? (0 se nenhum)</label>
+						                <input type="number" name="problemas" placeholder="Quantos partos prematuro?">
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Quantos partos a termo? (0 se nenhum)</label>
+						                <input type="number" name="problemas" placeholder="Quantos partos a termo?">
+						    		</div>
+						    		<div data-field-span="1">
+						                <label>Quantos partos pós termo? (0 se nenhum)</label>
+						                <input type="number" name="problemas" placeholder="Quantos partos pós termo?">
+						    		</div>
+							    </div>
+
+							    <div class="leg"><legend>Dados da Mãe</legend></div>
+								
+								<div data-row-span="2">
+							        <div data-field-span="2">
+						                <label>Nome da Mãe</label>
+						                <input type="text" name="mae" id="mae" placeholder="Nome da Mãe">
+							    	</div> 
+							    </div>
+						    
+							    <div data-row-span="2">
+							    	<div data-field-span="1">
+						                <label>Data de nascimento (Mãe)</label>
+						                <input type="date" name="nome" id="nome" placeholder="Nome" >
+						        	</div>  
+							        <div data-field-span="1">
+						                <label>Escolaridade (Mãe)</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">Nenhuma</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">Ensino fundamental incompleto</option>
+											<option value="ensinofundamental" title="ensinofundamental">Ensino fundamental completo</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">Ensino médio incompleto</option>
+											<option value="ensinomediocompleto" title="ensinomediocompleto">Ensino medio completo</option>
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto">Ensino superir imcompleto</option>					
+											<option value="ensinosuperiorcompleto" title="ensinosuperiorcompleto">Ensino superir completo</option>					
+										</select>
+						    		</div>
+							    	 
+						    	</div>
+						    	<div data-row-span="2">
+						    		<div data-field-span="1">
+						                <label>Profissão (Mãe)</label>
+						                <input type="text" name="profissaomae" id="profissaomae" placeholder="Profissão da Mãe" >
+						        	</div>  
+							        <div data-field-span="1">
+							                <label>Trabalha atualmente (Mãe)</label>
+							                <label><input type="radio" name="trabalhomae" value="s"> Sim</label>
+							                <label><input type="radio" name="trabalhomae" value="n"> Não</label>
+							    	</div>
+							    </div>
+								
+								<div class="leg"><legend>Dados do Pai</legend></div>
+								
+								<div data-row-span="2">
+							        <div data-field-span="2">
+						                <label>Nome do Pai</label>
+						                <input type="text" name="mae" id="mae" placeholder="Nome do Pai">
+							    	</div>
+							    	 
+							    </div>
+						    
+							    <div data-row-span="2">
+							    	<div data-field-span="1">
+						                <label>Data de nascimento (Pai)</label>
+						                <input type="date" name="nome" id="nome" placeholder="Nome" >
+						        	</div>  
+							        <div data-field-span="1">
+						                <label>Escolaridade (Pai)</label>
+						                <select>
+											<option value="nenhuma" title="nenhuma">Nenhuma</option>
+											<option value="fundamentalincompleto" title="fundamentalincompleto">Ensino fundamental incompleto</option>
+											<option value="ensinofundamental" title="ensinofundamental">Ensino fundamental completo</option>
+											<option value="ensinomedioimcompleto" title="ensinomedioimcompleto">Ensino médio incompleto</option>
+											<option value="ensinomediocompleto" title="ensinomediocompleto">Ensino medio completo</option>
+											<option value="ensinosuperiorincompleto" title="ensinosuperiorincompleto">Ensino superir imcompleto</option>					
+											<option value="ensinosuperiorcompleto" title="ensinosuperiorcompleto">Ensino superir completo</option>					
+										</select>
+						    		</div>
+							    	 
+						    	</div>
+						    	<div data-row-span="2">
+						    		<div data-field-span="1">
+						                <label>Profissão (Pai)</label>
+						                <input type="text" name="profissaomae" id="profissaomae" placeholder="Profissão do Pai" >
+						        	</div>  
+							        <div data-field-span="1">
+							                <label>Trabalha atualmente (Pai)</label>
+							                <label><input type="radio" name="trabalhopai" value="s"> Sim</label>
+							                <label><input type="radio" name="trabalhopai" value="n"> Não</label>
+							    	</div>
+							    </div>
+								<input type="button" name="next" class="button-green" value="Proximo" />
+							</fieldset>
+						</form>
+					</div>
+					
+				</div>
+
+				<br>
+				<br>
+
+			
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- progressbar -->
+	<!--<ul id="progressbar" class="test-grid grid-1 gutter-20">
+		<li class="active">Account Setup</li>
+		<li>Social Profiles</li>
+		<li>Personal Details</li>
+		<li>Personal Details</li>
+		<li>Personal Details</li>
+	</ul> fieldsets -->
+
+
+
+<link rel="stylesheet" type="text/css" href="css/gridforms.css">
+
+	<script src="js/snap.js"></script>
+	<script src="js/responsive-elements.js"></script>
+	<script src="js/gridforms.js"></script>
+
+	<script src="js/base.js"></script>
+</body>
+</html>
