@@ -16,7 +16,7 @@
 		<li><a href="questionario01?parte=09">Doenças Pré-Existentes</a></li>
 		<li><a href="questionario01?parte=10">Odontológico</a></li>
 		<li>Avalização Corporal</li>
-		<li>Avalização de Stress</li>
+		<li><a href="questionario01?parte=12">Avalização de Stress</a></li>
 		<li>Avalização de Depressão</li>
 		<li>Ansiedade</li>
 		<li>Etilismo</li>
