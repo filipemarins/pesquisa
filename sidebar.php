@@ -15,9 +15,9 @@
 		<li><a href="questionario01?parte=08">Habitos Alimentares</a></li>
 		<li><a href="questionario01?parte=09">Doenças Pré-Existentes</a></li>
 		<li><a href="questionario01?parte=10">Odontológico</a></li>
-		<li>Avalização Corporal</li>
-		<li><a href="questionario01?parte=12">Avalização de Stress</a></li>
-		<li>Avalização de Depressão</li>
+		<li>Avaliação Corporal</li>
+		<li><a href="questionario01?parte=12">Avaliação de Stress</a></li>
+		<li><a href="questionario01?parte=13">Avaliação de Depressão</a></li>
 		<li>Ansiedade</li>
 		<li>Etilismo</li>
 		<li>Anabolizantes</li>
