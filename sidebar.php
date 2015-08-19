@@ -18,7 +18,7 @@
 		<li>Avaliação Corporal</li>
 		<li><a href="questionario01?parte=12">Avaliação de Stress</a></li>
 		<li><a href="questionario01?parte=13">Avaliação de Depressão</a></li>
-		<li>Ansiedade</li>
+		<li><a href="questionario01?parte=14">Ansiedade</a></li>
 		<li>Etilismo</li>
 		<li>Anabolizantes</li>
 		<li>Tabagismo</li>
