@@ -22,29 +22,33 @@
 					<div class="span-2">
 						<?php 
 							if(isset($_GET['parte'])  && $_GET['parte']=="01"){ 
-							include('forms/parte01.php');
+								include('forms/parte01.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="02"){ 
-							include('forms/parte02.php');
+								include('forms/parte02.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="03"){ 
-							include('forms/parte03.php');
+								include('forms/parte03.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="04"){ 
-							include('forms/parte04.php');
+								include('forms/parte04.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="05"){ 
-							include('forms/parte05.php');
+								include('forms/parte05.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="06"){ 
-							include('forms/parte06.php');
+								include('forms/parte06.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="07"){ 
-							include('forms/parte07.php');
+								include('forms/parte07.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="08"){ 
-							include('forms/parte08.php');
+								include('forms/parte08.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="09"){ 
-							include('forms/parte09.php');
+								include('forms/parte09.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="10"){ 
-							include('forms/parte10.php');
+								include('forms/parte10.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="12"){ 
-							include('forms/parte12.php');
+								include('forms/parte12.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="13"){ 
-							include('forms/parte13.php');
+								include('forms/parte13.php');
+							}elseif(isset($_GET['parte'])  && $_GET['parte']=="14"){ 
+								include('forms/parte14.php');
+							}elseif(isset($_GET['parte'])  && $_GET['parte']=="15"){ 
+								include('forms/parte15.php');
 							}else{
 							include('forms/parte01.php');
 							}
