@@ -1,0 +1,521 @@
+Dados Pessoais (dados_pessoais)
+	pes_id -
+	pes_nomecompleto -
+	pes_sexo -
+	pes_datanascimento -
+	pes_cidadereside -
+	pes_naturalidade -
+	pes_email -
+	pes_escolaridade -
+	pes_estudouem -
+	pes_trabalha - (s/n)
+	pes_hosrassemtrab -
+	pes_estadocivil -
+	pes_comquemvive - conc
+	pes_sangue -
+	pes_rh -
+	pes_pesonascer -
+	pes_atividadefisica - (s/n)
+	pes_quaisatividades - conc
+	pes_classpai 
+	pes_classmae
+	pes_classeu
+	
+	-----------Exclusivo Mulher----------
+	
+	mul_id
+	mul_qtdgestao
+	mul_qtdfilhos
+	mul_probgestacional - conc
+	mul_partosnormais
+	mul_partoscesario
+	mul_partoforceps
+	mul_partoprematuro
+	mul_partotermo
+	mul_postermo
+	pes_id
+
+	------------Endereço---------------
+	
+	end_id
+	end_cep
+	end_rua
+	end_numero
+	end_bairro
+	end_cidade
+	end_estado
+	pes_id
+	
+	
+Dados da Mãe (dados_mae)
+	mae_id
+	mae_nome
+	mae_datanascimento
+	mae_escolaridade
+	mae_profissao
+	mae_trabalhaatualmente
+	mae_datahora
+
+Dados do Pai (dados_pai)
+	pai_id
+	pai_nome
+	pai_datanascimento
+	pai_escolaridade
+	pai_profissao
+	pai_trabalhaatualmente
+	
+Socio-Economico
+	
+	soc_id
+	soc_rendafamiliar
+	soc_contri
+	soc_sustentadas
+	soc_suacontri
+	pes_id
+
+Qualidade de vida PEDSQL
+
+	qal_id
+	46 - qal_difand
+	47 - qal_difcor
+	48 - qal_difpra
+	49 - qal_diflev
+	50 - qal_difban
+	51 - qal_difdom
+	52 - qal_dor
+	53 - qal_energia
+	54 - qal_divconv
+	55 - qal_jovamigos
+	56 - qal_jovimpl
+	57 - qal_jovidade
+	58 - qal_dificilidade
+	
+	59 - qal_ataula
+	60 - qal_esque
+	61 - qal_difiacomp
+	62 - qal_faltrabalhobem
+	63 - qal_faltrabalhohos
+
+	pes_id
+
+Qualidade de vida – WHOQOL
+
+	64 - who_avalia
+	65 - who_satsaude
+	66 - who_dorfisica
+	67 - who_medicamento
+	68 - who_apvida
+	69 - who_sentidovida
+	70 - who_concentrar
+	71 - who_seguro
+	72 - who_saudavel
+	73 - who_energia
+	74 - who_apfisica
+	75 - who_dinheirosuf
+	76 - who_dispdiadia
+	77 - who_opolazer
+	78 - who_locomover
+	79 - who_sono
+	80 - who_diadia
+	81 - who_trabalho
+	82 - who_satisf
+	83 - who_satisfpessoais
+	84 - who_satisfvida
+	85 - who_satisfamigos
+	86 - who_satismora
+	87 - who_satisfsaude
+	88 - who_saitsftransporte
+	89 - who_frequencianeg
+	pes_id
+
+Atividade física
+
+	90 - atv_dias
+	91 - atv_tmpdia
+	92 - atv_diasmod
+	93 - atv_tmpdiamod
+	94 - atv_diasrig
+	95 - atv_tmpdiarig
+	96 - atv_tmpsent
+	97 - atv_tmpsentfds
+	pes_id
+
+Habitos Alimentares
+
+	98 - hab_comcafmanha
+	99 - hab_comlanchemanha
+	100 - hab_comalmoco
+	101 - hab_comlanchetarde
+	102 - hab_comjantar
+	103 - hab_comlanchenoite
+	
+	104 - hab_ondcafmanha
+	105 - hab_ondlanchemanha
+	106 - hab_ondalmoco
+	107 - hab_ondlanchetarde
+	108 - hab_ondjantar
+	109 - hab_ondlanchenoite
+
+	110 - hab_maiondlanch
+
+	111 - hab_carneboi
+	112 - hab_frango
+	113 - hab_carnoproco
+	114 - hab_peixe
+	115 - hab_linguica
+	116 - hab_leite
+	117 - hab_ovos
+	118 - hab_feijao
+	119 - hab_outleg
+	120 - hab_frutas
+	121 - hab_suconat
+	122 - hab_hortalicas
+	123 - hamburguer
+	124 - hab_batatafrita
+	125 - hab_batata
+	126 - hab_margman
+	127 - hab_paosal
+	128 - hab_bolo
+	129 - hab_biscoitorech
+	130 - hab_biscotosalg
+	131 - hab_salgadoass
+	132 - hab_salgadofrito
+	133 - hab_macarrao
+	134 - hab_pizza
+	135 - hab_outmassas
+	136 - hab_acucar
+	137 - hab_chocolate
+	138 - hab_bombom
+	139 - hab_balas
+	140 - hab_gelgomcre
+	141 - hab_sorvetes
+	142 - hab_outdoces
+	143 - hab_sucosindu
+	144 - hab_refrigerantes
+	
+	145 - hab_vcachacome
+	146 - hab_periodcome
+	147 - hab_alergiali
+	148 - hab_tipodieta
+
+	149 - hab_motivodieta
+	150 - hab_infodieta
+
+Doenças Pré-Existentes
+
+	151 - pre_dataex
+	151.1 - pre_excom
+	152 - pre_datateste
+	152.1 - pre_testecom
+	153 - pre_medicdores
+	154 - pre_medicdorm
+	155 - pre_medicpress
+	156 - pre_medicans
+	157 - pre_medicpsi
+	158 - pre_medicalerg
+	159 - pre_medicasm
+	160 - pre_mediccor
+	161 - pre_medicdiab
+	162 - pre_medicnatu
+	163 - pre_medicoutros
+	163.1 - pre_medicoutrosesp
+	
+	164 - pre_pai
+	165 - pre_mae
+	166 - pre_irmao
+	167 - pre_irma
+	168 - pre_avo
+	
+	169 - pre_coluna
+	170 - pre_articulacao
+	171 - pre_hernia
+	172 - pre_rim
+	173 - pre_pescoco
+	175 - pre_pulmao
+	176 - pre_olhos
+	177 - pre_outras
+	177.1 - pre_outrasesp
+
+	178 - pre_alcoolismo
+	179 - pre_problema_renal
+	180 - pre_enfisema
+	181 - pre_anemia
+	182 - pre_dor_pescoco
+	183 - pre_dor_costas
+	184 - pre_visao
+	185 - pre_flebite
+	186 - pre_artrite
+	187 - pre_cancer
+	188 - pre_cancer
+	189 - pre_tireoide
+	190 - pre_hipoglicemia
+	191 - pre_concussao
+	192 - pre_defeito_congenito
+	193 - pre_sangramento
+	194 - pre_diabete
+	195 - pre_anemia
+	196 - pre_doenca_mental
+	197 - pre_epilepsia
+	198 - pre_asma
+	199 - pre_obesidade
+	200 - pre_gota
+	201 - pre_audicao
+	202 - pre_bronquite
+	203 - pre_avc
+	204 - pre_hipertensao
+	205 - pre_cirrose
+	206 - pre_ulcera
+	207 - pre_hiperlipidemia
+	208 - pre_outras_doencas
+	208.1 - pre_outras_doencas_especifique
+
+	209 - pre_anticoagulante
+	210 - pre_para_epilepsia
+	211 - pre_nitroglicemia
+	212 - pre_para_diabete
+	213 - pre_para_coracao
+	214 - pre_para_estomago
+	215 - pre_para_pressao
+	216 - pre_diuretico
+	217 - pre_outros_medicamentos
+	217.1 - pre_outros_medicamentos_especifique
+	
+Odontologico
+	
+	218 - odt_dataex
+	218.1 - odt_excom	
+	219 - odt_nfoi_dentista
+	219.1 - odt_nfoi_motivo
+	220 - odt_carie_familia
+	221 - odt_ganglios_dolorido
+	222 - odt_sangra_extrai
+	223 - odt_dores_nuca
+	224 - odt_zumbido
+	225 - odt_abrir_boca
+	226 - odt_estala_abre
+	227 - odt_estala_come
+	228 - odt_anestesia
+	229 - odt_reacao_anestesia
+	230 - odt_dor_dente
+	231 - odt_retencao_alimento
+	232 - odt_mastiga_lado
+	233 - odt_qual_lado
+	234 - odt_dor_ouvido
+	235 - odt_refrigerante
+	236 - odt_gengiva
+	237 - odt_protese
+	238 - odt_perdeu_dente
+	239 - odt_perdeu_dente_lado
+	240 - odt_cirurgia_pescoco
+	241 - odt_aparelho
+	242 - odt_usou_aparelho
+	243 - odt_usa_implate
+	244 - odt_canal
+	245 - odt_experiencia
+	246 - odt_qual_experiencia
+	247 - odt_ingere_alimentos
+	248 - odt_roi_unhas
+	249 - odt_respira_boca
+	250 - odt_chimarrao
+	251 - odt_chupa_bico_dedo
+	252 - odt_morde_caneta_lapis
+	253 - odt_range
+	254 - odt_apertar_boca
+	255 - odt_fio_dental
+	256 - odt_quantas_fio
+	257 - odt_escovar
+	258 - odt_tipo_escova
+	259 - odt_quantas_escova
+	260 - odt_escova_interdental
+	261 - odt_palito
+	262 - odt_creme
+	263 - odt_fluor_gel
+	264 - odt_fluor_creme
+	265 - odt_fluor_bochecho
+	266 - odt_fluor_agua
+	267 - odt_info
+
+Avaliação Corporal
+	
+	268 - cop_satisfeito_corpo
+	269 - cop_gostaria_magro
+	270 - cop_gostaria_gordo
+
+	271 - cop_ver_espelho
+	272 - cop_gostaria_ser
+
+Avalização stress
+
+	273 - sts_tensao
+	274 - sts_hiperacidez
+	275 - sts_esquecimento
+	276 - sts_irritabilidade
+	277 - sts_vontadesumir
+	278 - sts_incompetencia
+	279 - sts_umassunto
+	280 - sts_ansiedade
+	281 - sts_sono
+	282 - sts_cansaco_levantar
+	283 - sts_competencia_baixa
+	284 - sts_nada_vale
+	
+Avalização de Depressão
+	
+	285 - dep_triste
+	286 - dep_futuro
+	287 - dep_frac
+	288 - dep_prazer
+	289 - dep_culpado
+	290 - dep_punido
+	291 - dep_decepcionado
+	292 - dep_pior_outros
+	293 - dep_matar
+	294 - dep_choro
+	295 - dep_irritado
+	296 - dep_interesse
+	297 - dep_decisoes
+	298 - dep_pior_antes
+	299 - dep_trabalhar_antes
+	300 - dep_dormir_brm
+	301 - dep_cansado
+	302 - dep_apetite
+	303 - dep_peso
+	304 - dep_perder_peso
+	305 - dep_preocupado_saude
+	306 - dep_mudanca_sexo
+
+Ansiedade
+
+	307 - ans_domencia
+	308 - ans_calor
+	309 - ans_tremores_pernas
+	310 - ans_relaxar
+	311 - ans_medo_pior
+	312 - ans_tonto
+	313 - ans_palpitacao
+	314 - ans_equilibrio
+	315 - ans_ateroorizado
+	316 - ans_nervoso
+	317 - ans_sufocacao
+	318 - ans_tremores_mao
+	319 - ans_tremulo
+	320 - ans_medo_controle
+	321 - ans_respirar
+	322 - ans_morrer
+	323 - ans_assustado
+	324 - ans_ingestaro
+	325 - ans_desmao
+	326 - ans_afogueado
+	327 - ans_suor
+
+Etilismo
+
+	328 - alc_ja_bebeu
+	329 - alc_atualmente_bebe
+	330 - alc_frequencia
+	331 - alc_quantidade
+	332 - alc_quantidade_seix
+	333 - alc_deixou_beber
+	334 - alc_bebe_muito
+	335 - alc_parentes_acham
+	336 - alc_aa
+	337 - alc_perdeu_bebida
+	338 - alc_problema_trabalho
+	339 - alc_obrigacoes
+	340 - alc_tremores
+	341 - alc_ajuda
+	342 - alc_hospitalizado
+	343 - alc_preso_multado
+
+Anabolizantes
+
+	344 - ana_ja_usou
+	345 - ana_atualmente_usa
+	346 - ana_winstrol
+	347 - ana_dianabol
+	348 - ana_deca
+	349 - ana_oxandrin
+	350 - ana_depo
+	351 - ana_equipoise
+	352 - ana_durateston
+	352.1 - ana_outros_anabolizantes
+	
+	353 - ana_tempo_usou
+	354 - ana_finalidade
+	354.1 - ana_outras_finalidade
+
+	355 - ana_usa_medicamento
+	356 - ana_efedrina
+	357 - ana_insulina
+	358 - ana_hepatoprotetor
+	359 - ana_clembuterol
+	360 - ana_diuretico
+	361 - ana_tamoxifeno
+	362 - ana_gh
+	362.1 - ana_outros_medicamentos
+
+	363 - ana_sintomas
+	364 - ana_pressao
+	365 - ana_nausea
+	366 - ana_espinhas
+	367 - ana_diminuicao_libido
+	368 - ana_depressao
+	369 - ana_dependencia
+	370 - ana_aumento_libido
+	371 - ana_humor
+	372 - ana_testiculos
+	372.1 - ana_outros_sintomas
+
+Tabagismo
+
+	373 - tab_fumou
+	374 - tab_cigarro
+	375 - tab_cachimbo
+	376 - tab_charuto
+	377 - tab_narguile
+	
+	378 - tab_atualmente_fuma
+	379 - tab_tempo_fumou
+	380 - tab_frequencia
+	381 - tab_media_fuma
+	382 - tab_frequencia
+
+Drogas Ilícitas
+
+	383 - dro_uso_drogas
+	384 - dro_uso_atualmente
+	
+	385 - dro_maconha
+	386 - dro_cocaina
+	387 - dro_crack
+	388 - dro_ecstasy
+	389 - dro_lsd
+	390 - dro_inalantes
+	391 - dro_heroina
+	392 - dro_barbituricos
+	393 - dro_morfina
+	394 - dro_skank
+	395 - dro_cogumelo
+	396 - dro_anferamina
+	397 - dro_cloroformio
+	398 - dro_opio
+	398.1 - dro_outras_drogas
+	
+	399 - dro_tempo_usa
+	
+	400 - dro_sintomas
+	401 - dro_pressao
+	402 - dro_nausea
+	403 - dro_espinhas
+	404 - dro_diminuicao_libido
+	405 - dro_depressao
+	406 - dro_dependencia
+	407 - dro_aumento_libido
+	408 - dro_humor
+	409 - dro_testiculos
+	409.1 - dro_outros_sintomas
+
+Antropometria
+
+	410 - 
+	
