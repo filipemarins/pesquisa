@@ -48,68 +48,68 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Para mim é difícil andar mais de um quarteirão.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difand" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difand" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difand" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difand" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difand" value="Quase sempre"></td>
 				  
 				</tr>
 				<tr>
 				  <td class="labelgrid">Para mim é difícil correr.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difcor" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difcor" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difcor" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difcor" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difcor" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Para mim é difícil praticar esportes ou fazer exercícios físicos</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difpra" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difpra" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difpra" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difpra" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difpra" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Para mim é difícil levantar coisas pesadas.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_diflev" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_diflev" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_diflev" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_diflev" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_diflev" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Para mim é difícil tomar banho de banheira ou de chuveiro sozinho/a.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difban" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difban" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difban" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difban" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difban" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Para mim é difícil ajudar nas tarefas domésticas.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difdom" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difdom" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difdom" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difdom" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difdom" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Eu sinto dor.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dor" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dor" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dor" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dor" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dor" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Eu tenho pouca energia ou disposição. </td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_energia" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_energia" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_energia" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_energia" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_energia" value="Quase sempre"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -140,44 +140,44 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Eu tenho dificuldade para conviver com outros jovens.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_divconv" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_divconv" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_divconv" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_divconv" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_divconv" value="Quase sempre"></td>
 				  
 				</tr>
 				<tr>
 				  <td class="labelgrid">Os outros jovens não querem ser meus amigos.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovamigos" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovamigos" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovamigos" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovamigos" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovamigos" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Os outros jovens implicam comigo.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovimpl" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovimpl" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovimpl" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovimpl" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovimpl" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Eu não consigo fazer coisas que outros jovens da minha idade fazem.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovidade" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovidade" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovidade" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovidade" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_jovidade" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Para mim é difícil acompanhar os jovens da minha idade.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dificilidade" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dificilidade" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dificilidade" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dificilidade" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_dificilidade" value="Quase sempre"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -208,44 +208,44 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">É difícil prestar atenção no trabalho ou na aula.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_ataula" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_ataula" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_ataula" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_ataula" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_ataula" value="Quase sempre"></td>
 				  
 				</tr>
 				<tr>
 				  <td class="labelgrid">Eu esqueço as coisas.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_esque" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_esque" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_esque" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_esque" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_esque" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Eu tenho dificuldade para acompanhar o meu trabalho ou meus estudos.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difiacomp" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difiacomp" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difiacomp" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difiacomp" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_difiacomp" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Eu falto ao trabalho ou à aula por não estar me sentindo bem.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhobem" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhobem" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhobem" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhobem" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhobem" value="Quase sempre"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Eu falto ao trabalho ou à aula para ir ao médico ou ao hospital.</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhohos" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhohos" value="Quase nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhohos" value="Algumas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhohos" value="Muitas vezes"></td>
+				  <td class="rdbtn"><input type="radio" name="qal_faltrabalhohos" value="Quase sempre"></td>
 				</tr>
 			</tbody>
 		</table>
