@@ -11,7 +11,7 @@
 				</dl>
 			</fieldset>
 		</div>
-</div>
+	</div>
 
 <form id="msform" class="grid-form"  method="POST" action="questionario01/adicionar/adicionar-parte03.php" accept-charset="UTF-8">
 	<div class="leg"><legend></legend></div>
