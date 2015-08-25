@@ -7,7 +7,7 @@
 	<div data-row-span="2">
 		<table class="flakes-table">
 			<colgroup>
-				<col span="1" style="width:40%">
+				<col span="1" style="">
 				<col span="1" style="">
 				<col span="1" style="">
 			</colgroup>

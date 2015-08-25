@@ -28,19 +28,19 @@
 			</colgroup>
 			<thead>
 				<tr>
-					<td class="rdbtn">Não me sinto triste</td>
-					<td class="rdbtn">Eu me sinto triste</td>
-					<td class="rdbtn">Estou sempre triste e não consigo sair disto</td>
-					<td class="rdbtn">Estou tão triste ou infeliz que não consigo suportar</td>
+					<td class="rdbtn"><label for="1">Não me sinto triste</label></td>
+					<td class="rdbtn"><label for="2">Eu me sinto triste</label></td>
+					<td class="rdbtn"><label for="3">Estou sempre triste e não consigo sair disto</label></td>
+					<td class="rdbtn"><label for="4">Estou tão triste ou infeliz que não consigo suportar</label></td>
 				</tr>
 			</thead>
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" id="1" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" id="2" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" id="3" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" id="4" value="4"></td>
 				</tr>
 			</tbody>
 		</table>

@@ -22,8 +22,8 @@
 		<li><a href="questionario01?parte=15">Etilismo</a></li>
 		<li><a href="questionario01?parte=16">Anabolizantes</a></li>
 		<li><a href="questionario01?parte=17">Tabagismo</a></li>
-		<li>Drogas Ilícitas</li>
-		<li>Antropometria</li>
+		<li><a href="questionario01?parte=18">Drogas Ilícitas</a></li>
+		<li><a href="questionario01?parte=19">Antropometria</a></li>
 		
 
 	</ul>
