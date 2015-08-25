@@ -34,6 +34,208 @@
 		</select>
 	</div>
 </div>
+<<<<<<< HEAD
+=======
+
+<div data-row-span="2">
+		<table class="flakes-table">
+			<colgroup>
+				<col span="1" style="width:40%">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+			</colgroup>
+			<thead>
+				<tr>
+					<td class="soc_contri"></td>
+					<td class="rdbtn">1 vez por mês ou menos</td>
+					<td class="rdbtn">2-4 vezes por mês</td>
+					<td class="rdbtn">2-3 vezes por semana</td>
+					<td class="rdbtn">4 ou mais por semana</td>
+				</tr>
+			</thead>
+			<tbody class="list"><tr>
+				  <td class="labelgrid">Com que frequência bebe bebidas alcoólicas?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+
+<div data-row-span="2">
+		<table class="flakes-table">
+			<colgroup>
+				<col span="1" style="width:40%">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+			</colgroup>
+			<thead>
+				<tr>
+					<td class="soc_contri"></td>
+					<td class="rdbtn">1 ou 2</td>
+					<td class="rdbtn">3 ou 4</td>
+					<td class="rdbtn">5 ou 6</td>
+					<td class="rdbtn">7, 8 ou 9</td>
+					<td class="rdbtn">10 ou mais</td>
+				</tr>
+			</thead>
+			<tbody class="list"><tr>
+				  <td class="labelgrid">Nos dias em que bebe, quantas bebidas alcoólicas bebe, em média?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5"></td>
+
+				</tr>
+			</tbody>
+		</table>
+</div>
+
+<div data-row-span="2">
+		<table class="flakes-table">
+			<colgroup>
+				<col span="1" style="width:40%">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+			</colgroup>
+			<thead>
+				<tr>
+					<td class="soc_contri"></td>
+					<td class="rdbtn">Nunca</td>
+					<td class="rdbtn">Menos de 1 vez por mês</td>
+					<td class="rdbtn">Mensalmente</td>
+					<td class="rdbtn">Semanalmente</td>
+					<td class="rdbtn">Diariamente ou quase diariamente</td>
+				</tr>
+			</thead>
+			<tbody class="list"><tr>
+				  <td class="labelgrid">Quantas vezes bebe seis ou mais bebidas em seguida/numa única ocasião?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5"></td>
+
+				</tr>
+			</tbody>
+		</table>
+</div>
+
+<div data-row-span="2">
+		<table class="flakes-table">
+			<colgroup>
+				<col span="1" style="width:40%">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+			</colgroup>
+			<thead>
+				<tr>
+					<td class="soc_contri"></td>
+					<td class="rdbtn">Menos de 6 meses</td>
+					<td class="rdbtn">6 ou mais meses</td>
+				</tr>
+			</thead>
+			<tbody class="list"><tr>
+				  <td class="labelgrid">Se deixou de beber bebidas alcoólicas foi a quanto tempo?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+
+<div class="leg"><legend>Se você consome bebidas alcoólicas responda as questões.</legend></div>
+	<div data-row-span="2">
+		<table class="flakes-table">
+			<colgroup>
+				<col span="1" style="width:40%">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+				<col span="1" style="">
+			</colgroup>
+			<thead>
+				<tr>
+					<td class="soc_contri"></td>
+					<td class="rdbtn"><br> Sim</td>
+					<td class="rdbtn"><br> Não</td>
+				</tr>
+			</thead>
+			<tbody class="list">
+				<tr>
+				  <td class="labelgrid">Você se considera uma pessoa que bebe de modo normal?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>		  
+				</tr>
+				<tr>
+				  <td class="labelgrid">Seus amigos ou parentes acham que você bebe de modo normal?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				</tr>
+				<tr>
+				  <td class="labelgrid">Você já foi a algum encontro dos Alcoólicos Anônimos (AA)?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				</tr>
+				<tr>
+				  <td class="labelgrid">Você já perdeu amigos/amigas ou namorado/namorada por causa da bebida?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				</tr>
+				<tr>
+				  <td class="labelgrid">Você já teve problemas no trabalho/emprego por causa da bebida?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				</tr>
+				<tr>
+				  <td class="labelgrid">Você já abandonou suas obrigações, sua família ou seu trabalho por 2 ou mais dias em seguida por causa da bebida?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				</tr>
+				<tr>
+				  <td class="labelgrid">Você já teve tremores, ouviu vozes, viu coisas que não estavam lá depois de beber muito?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				</tr>
+				<tr>
+				  <td class="labelgrid">Você já procurou algum tipo de ajuda por causa da bebida?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				</tr>
+				<tr>
+				  <td class="labelgrid">Você já foi hospitalizado por causa da bebida?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				</tr>
+				<tr>
+				  <td class="labelgrid">Você já esteve preso ou foi multado por dirigir embriagado?</td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</form>
+>>>>>>> origin/master
 
 <div data-row-span="1">	 
     <div data-field-span="1">

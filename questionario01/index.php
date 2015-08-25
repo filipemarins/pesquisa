@@ -49,6 +49,10 @@
 								include('forms/parte14.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="15"){ 
 								include('forms/parte15.php');
+							}elseif(isset($_GET['parte'])  && $_GET['parte']=="16"){ 
+								include('forms/parte16.php');
+							}elseif(isset($_GET['parte'])  && $_GET['parte']=="17"){ 
+								include('forms/parte17.php');
 							}else{
 							include('forms/parte01.php');
 							}

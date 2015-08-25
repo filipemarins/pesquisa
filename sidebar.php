@@ -20,8 +20,8 @@
 		<li><a href="questionario01?parte=13">Avaliação de Depressão</a></li>
 		<li><a href="questionario01?parte=14">Ansiedade</a></li>
 		<li><a href="questionario01?parte=15">Etilismo</a></li>
-		<li>Anabolizantes</li>
-		<li>Tabagismo</li>
+		<li><a href="questionario01?parte=16">Anabolizantes</a></li>
+		<li><a href="questionario01?parte=17">Tabagismo</a></li>
 		<li>Drogas Ilícitas</li>
 		<li>Antropometria</li>
 		
