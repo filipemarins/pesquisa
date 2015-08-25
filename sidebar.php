@@ -15,6 +15,18 @@
 		<li><a href="questionario01?parte=08">Habitos Alimentares</a></li>
 		<li><a href="questionario01?parte=09">Doenças Pré-Existentes</a></li>
 		<li><a href="questionario01?parte=10">Odontológico</a></li>
+<<<<<<< HEAD
+=======
+		<li>Avalização Corporal</li>
+		<li>Avalização de Stress</li>
+		<li>Avalização de Depressão</li>
+		<li>Ansiedade</li>
+		<li>Etilismo</li>
+		<li>Anabolizantes</li>
+		<li>Tabagismo</li>
+		<li>Drogas Ilícitas</li>
+		<li><a href="questionario01?parte=19">Antropometria</a></li>
+>>>>>>> origin/master
 		<li>Avaliação Corporal</li>
 		<li><a href="questionario01?parte=12">Avaliação de Stress</a></li>
 		<li><a href="questionario01?parte=13">Avaliação de Depressão</a></li>
@@ -24,7 +36,10 @@
 		<li><a href="questionario01?parte=17">Tabagismo</a></li>
 		<li><a href="questionario01?parte=18">Drogas Ilícitas</a></li>
 		<li><a href="questionario01?parte=19">Antropometria</a></li>
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 
 	</ul>
 
