@@ -40,11 +40,9 @@
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="09"){ 
 								include('forms/parte09.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="10"){ 
-<<<<<<< HEAD
 							include('forms/parte10.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="19"){ 
 							include('forms/parte19.php');
-=======
 								include('forms/parte10.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="12"){ 
 								include('forms/parte12.php');
@@ -62,7 +60,6 @@
 								include('forms/parte18.php');
 							}elseif(isset($_GET['parte'])  && $_GET['parte']=="19"){ 
 								include('forms/parte19.php');
->>>>>>> origin/master
 							}else{
 							include('forms/parte01.php');
 							}
