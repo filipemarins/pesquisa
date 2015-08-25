@@ -20,8 +20,8 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Alguma vez fumou?</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_fumou" value="Sim"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_fumou" value="Não"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -44,23 +44,23 @@
 			<tbody class="list">
 				<tr>
 				  <td class="labelgrid">Cigarro</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>		  
+				  <td class="rdbtn"><input type="radio" name="tab_cigarro" value="Sim"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_cigarro" value="Não"></td>		  
 				</tr>
 				<tr>
 				  <td class="labelgrid">Cachimbo</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_cachimbo" value="Sim"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_cachimbo" value="Não"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Charuto</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_charuto" value="Sim"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_charuto" value="Não"></td>
 				</tr>
 				<tr>
 				  <td class="labelgrid">Narguilé</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_narguile" value="Sim"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_narguile" value="Não"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -82,8 +82,8 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Fuma atualmente?</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_atualmente_fuma" value="Sim"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_atualmente_fuma" value="Não"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -105,8 +105,8 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Se deixou de fumar foi a quanto tempo?</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_tempo_fumou" value="Sim"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_tempo_fumou" value="Não"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -131,10 +131,10 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Com que frequência fuma?</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="1 vez por mês ou menos"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="2-4 vezes por mês"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="2-3 vezes por semana"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="4 ou mais vezes por semana"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -159,11 +159,11 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Nos dias em que fuma, qual a quantidade de cigarros que fuma, em média?</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_media_fuma" value="1 - 2"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_media_fuma" value="3 – 5"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_media_fuma" value="6 – 9"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_media_fuma" value="10 - 20"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_media_fuma" value="Mais de 20"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -188,11 +188,11 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Com que frequência fuma mais de 10 cigarros seguidos/numa única ocasião?</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="Nunca"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="Menos de 1 vez por mês"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="Mensalmente"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="Semanalmente"></td>
+				  <td class="rdbtn"><input type="radio" name="tab_frequencia" value="Diariamente ou quase diariamente"></td>
 				</tr>
 			</tbody>
 		</table>
