@@ -173,7 +173,7 @@ Habitos Alimentares
 	123 - hamburguer
 	124 - hab_batatafrita
 	125 - hab_batata
-	126 - hab_margman
+	126 - hab_margman 126 - hab_manteiga
 	127 - hab_paosal
 	128 - hab_bolo
 	129 - hab_biscoitorech
