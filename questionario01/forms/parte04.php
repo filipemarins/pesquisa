@@ -41,22 +41,22 @@
 			</thead>
 			<tbody class="list"><tr>
 				  <td class="labelgrid">Quantas pessoas contribuem para a obtenção dessa renda familiar?</td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="6"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1 - uma"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2 – duas"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3 – três"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4 - quatro"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="5 – cinco"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_contri" value="mais de 5"></td>
 				  
 				</tr>
 				<tr>
 				  <td class="labelgrid">Quantas pessoas são sustentadas com a renda familiar?</td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="6"></td>
+				   <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="1 - uma"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="2 – duas"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="3 – três"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="4 - quatro"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="5 – cinco"></td>
+				  <td class="rdbtn"><input type="radio" name="soc_sustentadas" value="mais de 5"></td>
 				</tr>
 			</tbody>
 		</table>
