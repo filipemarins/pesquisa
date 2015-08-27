@@ -173,7 +173,7 @@ Habitos Alimentares
 	123 - hamburguer
 	124 - hab_batatafrita
 	125 - hab_batata
-	126 - hab_margman 126 - hab_manteiga
+	126 - hab_margman
 	127 - hab_paosal
 	128 - hab_bolo
 	129 - hab_biscoitorech
@@ -322,6 +322,7 @@ Odontologico
 	253 - odt_range
 	254 - odt_apertar_boca
 	255 - odt_fio_dental
+	255.1 - odt_rangerdentes
 	256 - odt_quantas_fio
 	257 - odt_escovar
 	258 - odt_tipo_escova
