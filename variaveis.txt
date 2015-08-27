@@ -35,7 +35,7 @@ Dados Pessoais (dados_pessoais)
 	mul_postermo
 	pes_id
 
-	------------Endereço---------------
+	------------EndereÃ§o---------------
 	
 	end_id
 	end_cep
@@ -47,7 +47,7 @@ Dados Pessoais (dados_pessoais)
 	pes_id
 	
 	
-Dados da Mãe (dados_mae)
+Dados da MÃ£e (dados_mae)
 	mae_id
 	mae_nome
 	mae_datanascimento
@@ -98,7 +98,7 @@ Qualidade de vida PEDSQL
 
 	pes_id
 
-Qualidade de vida – WHOQOL
+Qualidade de vida â€“ WHOQOL
 
 	64 - who_avalia
 	65 - who_satsaude
@@ -128,7 +128,7 @@ Qualidade de vida – WHOQOL
 	89 - who_frequencianeg
 	pes_id
 
-Atividade física
+Atividade fÃ­sica
 
 	90 - atv_dias
 	91 - atv_tmpdia
@@ -201,7 +201,7 @@ Habitos Alimentares
 	149 - hab_motivodieta
 	150 - hab_infodieta
 
-Doenças Pré-Existentes
+DoenÃ§as PrÃ©-Existentes
 
 	151 - pre_dataex
 	151.1 - pre_excom
@@ -227,6 +227,7 @@ Doenças Pré-Existentes
 	168 - pre_avo
 	
 	169 - pre_coluna
+	169.1 pre_coracao
 	170 - pre_articulacao
 	171 - pre_hernia
 	172 - pre_rim
@@ -245,7 +246,7 @@ Doenças Pré-Existentes
 	184 - pre_visao
 	185 - pre_flebite
 	186 - pre_artrite
-	187 - pre_cancer
+	187 - pre_cardiopatia
 	188 - pre_cancer
 	189 - pre_tireoide
 	190 - pre_hipoglicemia
@@ -336,7 +337,7 @@ Odontologico
 	266 - odt_fluor_agua
 	267 - odt_info
 
-Avaliação Corporal
+AvaliaÃ§Ã£o Corporal
 	
 	268 - cop_satisfeito_corpo
 	269 - cop_gostaria_magro
@@ -345,7 +346,7 @@ Avaliação Corporal
 	271 - cop_ver_espelho
 	272 - cop_gostaria_ser
 
-Avalização stress
+AvalizaÃ§Ã£o stress
 
 	273 - sts_tensao
 	274 - sts_hiperacidez
@@ -360,7 +361,7 @@ Avalização stress
 	283 - sts_competencia_baixa
 	284 - sts_nada_vale
 	
-Avalização de Depressão
+AvalizaÃ§Ã£o de DepressÃ£o
 	
 	285 - dep_triste
 	286 - dep_futuro
@@ -395,7 +396,7 @@ Ansiedade
 	312 - ans_tonto
 	313 - ans_palpitacao
 	314 - ans_equilibrio
-	315 - ans_ateroorizado
+	315 - ans_aterrorizado
 	316 - ans_nervoso
 	317 - ans_sufocacao
 	318 - ans_tremores_mao
@@ -405,7 +406,7 @@ Ansiedade
 	322 - ans_morrer
 	323 - ans_assustado
 	324 - ans_ingestaro
-	325 - ans_desmao
+	325 - ans_desmaio
 	326 - ans_afogueado
 	327 - ans_suor
 
@@ -481,7 +482,7 @@ Tabagismo
 	381 - tab_media_fuma
 	382 - tab_frequencia
 
-Drogas Ilícitas
+Drogas IlÃ­citas
 
 	383 - dro_uso_drogas
 	384 - dro_uso_atualmente
