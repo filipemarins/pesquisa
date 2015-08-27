@@ -3,7 +3,7 @@ include('../../conecta.php');
 include('../banco/banco-parte03.php');
 require('../logica/logica-usuario.php');
 
-$pai_datahora = date("Y-m-d H:i:s"); 
+$qal_datahora = date("Y-m-d H:i:s"); 
 
 //----------------------------------------
 
