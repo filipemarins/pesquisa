@@ -68,7 +68,7 @@
 	<div data-row-span="2">
 	    <div data-field-span="2">
 	        <label>Quanto tempo no total você gasta sentado durante um dia de semana?</label>
-	        <input type="text" name="atv_tmpsent" id="" class="hoursss" placeholder="Quantas horas por semana? (Média) hh:mm" required>
+	        <input type="text" name="atv_tmpsentfds" id="" class="hoursss" placeholder="Quantas horas por semana? (Média) hh:mm" required>
 		</div> 
 	</div>
 
