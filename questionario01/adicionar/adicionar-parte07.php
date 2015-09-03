@@ -17,7 +17,7 @@ $atv_tmpdiarig = $_POST['atv_tmpdiarig'];
 $atv_tmpsentfds = $_POST['atv_tmpsentfds'];
 $atv_tmpsentfds = $_POST['atv_tmpsentfds'];
 
-if(insereSocioEco($conexao ,$atv_dias, $atv_tmpdia, $atv_diasmod, $atv_diasrig, $atv_tmpdiarig, $atv_tmpsentfds, $atv_tmpsentfds, $atv_datahora,$pes_id)){
+if(insereAtivFisica($conexao ,$atv_dias, $atv_tmpdia, $atv_diasmod, $atv_diasrig, $atv_tmpdiarig, $atv_tmpsentfds, $atv_tmpsentfds,$atv_datahora,$pes_id)){
 
 
 	//header("Location: ../index.php?parte=03&adicionado=true");

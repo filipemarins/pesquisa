@@ -35,7 +35,7 @@ $who_satisfsaude = $_POST['who_satisfsaude'];
 $who_saitsftransporte = $_POST['who_saitsftransporte'];
 $who_frequencianeg = $_POST['who_frequencianeg'];
 
-if(insereSocioEco($conexao ,$who_avalia, $who_satsaude, $who_dorfisica, $who_medicamento, $who_apvida, $who_sentidovida, $who_concentrar, $who_seguro, $who_saudavel, $who_energia, $who_apfisica, $who_dinheirosuf, $who_dispdiadia, $who_dispdiadia,$who_opolazer, $who_locomover, $who_sono, $who_diadia, $who_trabalho, $who_satisf, $who_satisfpessoais,$who_satisfvida, $who_satisfamigos, $who_satismora, $who_satisfvida, $who_saitsftransporte, $who_frequencianeg $who_datahora,$pes_id)){
+if(insereWhoqol($conexao ,$who_avalia, $who_satsaude, $who_dorfisica, $who_medicamento, $who_apvida, $who_sentidovida, $who_concentrar, $who_seguro, $who_saudavel, $who_energia, $who_apfisica, $who_dinheirosuf, $who_dispdiadia, $who_dispdiadia,$who_opolazer, $who_locomover, $who_sono, $who_diadia, $who_trabalho, $who_satisf, $who_satisfpessoais,$who_satisfvida, $who_satisfamigos, $who_satismora, $who_satisfvida, $who_saitsftransporte, $who_frequencianeg $who_datahora,$pes_id)){
 
 	//header("Location: ../index.php?parte=03&adicionado=true");
 	echo 'Cadastro concluido';

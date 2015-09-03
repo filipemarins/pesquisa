@@ -81,3 +81,20 @@ $pre_para_pressao = $_POST['pre_para_pressao'];
 $pre_diuretico = $_POST['pre_diuretico'];
 $pre_outros_medicamentos = $_POST['pre_outros_medicamentos'];
 $pre_outros_medicamentos_especifique = $_POST['pre_outros_medicamentos_especifique'];
+
+
+
+if(insereSocioEco($conexao,$pre_dataex, $pre_excom, $pre_datateste, $pre_testecom, $pre_medicdores, $pre_medicdorm, $pre_medicpress, $pre_medicans, $pre_medicpsi, $pre_medicalerg, $pre_medicasm, $pre_mediccor, $pre_medicdiab, $pre_medicnatu, $pre_medicoutros, $pre_medicoutros, $pre_pai, $pre_mae, $pre_irmao, $pre_irma, $pre_avo $pre_coluna, $pre_coracao, $pre_articulacao, $pre_hernia, $pre_rim, $pre_pescoco, $pre_pulmao, $pre_olhos, $pre_outras, $pre_outrasesp, $pre_alcoolismo, $pre_problema_renal, $pre_enfisema, $pre_anemia, $pre_dor_pescoco, $pre_dor_costas, $pre_visao, $pre_flebite, $pre_artrite, $pre_cardiopatia,$pre_cancer, $pre_tireoide, $pre_hipoglicemia, $pre_concussao, $pre_defeito_congenito, $pre_sangramento, $pre_diabete, $pre_anemia, $pre_doenca_mental, $pre_epilepsia, $pre_asma, $pre_obesidade, $pre_gota, $pre_audicao, $pre_bronquite, $pre_avc, $pre_hipertensao, 
+$pre_cirrose, $pre_ulcera, $pre_hiperlipidemia, $pre_outras_doencas, $pre_outras_doencas_especifique, $pre_anticoagulante, $pre_para_epilepsia, $pre_nitroglicemia, $pre_para_diabete, $pre_para_coracao, $pre_para_estomago, $pre_para_pressao, $pre_diuretico, $pre_outros_medicamentos, $pre_outros_medicamentos_especifique, $pre_datahora,$pes_id)){
+
+	//header("Location: ../index.php?parte=03&adicionado=true");
+	echo 'Cadastro concluido';
+
+	}else{ 
+
+	//header("Location: adiciona-participante.php?adicionado=false");
+	$msg = mysqli_error($conexao);
+	echo $msg;
+		die();
+
+	}
