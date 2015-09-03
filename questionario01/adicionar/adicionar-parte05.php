@@ -25,3 +25,18 @@ $qal_esque = $_POST['qal_esque'];
 $qal_difiacomp = $_POST['qal_difiacomp'];
 $qal_faltrabalhobem = $_POST['qal_faltrabalhobem'];
 $qal_faltrabalhohos = $_POST['qal_faltrabalhohos'];
+
+if(insereSocioEco($conexao, $qal_difand, $qal_difcor, $qal_difpra, $qal_diflev, $qal_difban, $qal_difdom, $qal_dor, $qal_energia, $qal_divconv, $qal_jovamigos, $qal_jovidade, $qal_dificilidade, $qal_ataula, $qal_esque, $qal_difiacomp, $qal_faltrabalhobem, $qal_faltrabalhohos  $qal_datahora,$pes_id)){
+
+
+	//header("Location: ../index.php?parte=03&adicionado=true");
+	echo 'Cadastro concluido';
+
+	}else{ 
+
+	//header("Location: adiciona-participante.php?adicionado=false");
+	$msg = mysqli_error($conexao);
+	echo $msg;
+		die();
+
+	}
