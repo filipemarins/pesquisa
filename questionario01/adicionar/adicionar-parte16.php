@@ -55,4 +55,5 @@ if(insereAnabolizante($conexao, $ana_ja_usou, $ana_atualmente_usa, $ana_winstrol
 	echo $msg;
 		die();
 
+
 	}

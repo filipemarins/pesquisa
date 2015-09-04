@@ -51,4 +51,5 @@ if(insereDrogas($conexao, $dro_uso_drogas, $dro_uso_atualmente, $dro_maconha, $d
 	echo $msg;
 		die();
 
+
 	}

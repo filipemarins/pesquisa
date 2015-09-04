@@ -32,4 +32,5 @@ if(insereTabagismo($conexao, $tab_fumou, $tab_cigarro, $tab_cachimbo, $tab_charu
 	echo $msg;
 		die();
 
+
 	}

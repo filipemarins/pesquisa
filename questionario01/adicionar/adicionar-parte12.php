@@ -34,4 +34,5 @@ if(insereStress($conexao, $sts_tensao, $sts_hiperacidez, $sts_esquecimento, $sts
 	echo $msg;
 		die();
 
+
 	}

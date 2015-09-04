@@ -43,4 +43,5 @@ if(insereAnsiedade($conexao, $ans_domencia, $ans_calor, $ans_tremores_mao, $ans_
 	echo $msg;
 		die();
 
+
 	}

@@ -38,4 +38,5 @@ if(insereAlcolismo($conexao, $alc_ja_bebeu, $alc_atualmente_bebe, $alc_frequenci
 	echo $msg;
 		die();
 
+
 	}
