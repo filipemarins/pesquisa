@@ -35,3 +35,20 @@ $dro_dependencia = $_POST['dro_dependencia'];
 $dro_aumento_libido = $_POST['dro_aumento_libido'];
 $dro_testiculos = $_POST['dro_testiculos'];
 $dro_outros_sintomas = $_POST['dro_outros_sintomas'];
+
+
+
+if(insereDrogas($conexao, $dro_uso_drogas, $dro_uso_atualmente, $dro_maconha, $dro_cocainam, $dro_crack, $dro_ecstasy, $dro_lsd,$dro_inalantes, $dro_heroina, $dro_barbituricos, $dro_morfina$, $dro_skank, $dro_cogumelo, $dro_opio, $dro_outras_drogas, $dro_tempo_usa, $dro_sintomas, $dro_pressao, $dro_espinhas, $dro_dependencia, $dro_aumento_libido, $dro_testiculos, $dro_outros_sintomas , $dro_datahora, $pes_id)){
+
+
+	//header("Location: ../index.php?parte=03&adicionado=true");
+	echo 'Cadastro concluido';
+
+	}else{ 
+
+	//header("Location: adiciona-participante.php?adicionado=false");
+	$msg = mysqli_error($conexao);
+	echo $msg;
+		die();
+
+	}

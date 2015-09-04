@@ -28,3 +28,19 @@ $ans_ingestaro = $_POST['ans_ingestaro'];
 $ans_desmaio = $_POST['ans_desmaio'];
 $ans_afogueado = $_POST['ans_afogueado'];
 $ans_suor = $_POST['ans_suor'];
+
+
+if(insereAnsiedade($conexao, $ans_domencia, $ans_calor, $ans_tremores_mao, $ans_relaxar, $ans_medo_pior, $ans_tonto, $ans_palpitacao, $ans_equilibrio, $ans_aterrorizado, $ans_nervoso, $ans_sufocacao, $ans_tremores_mao, $ans_tremulo, $ans_medo_controle, $ans_respirar, $ans_morrer, $ans_assustado, $ans_ingestaro, $ans_desmaio, $ans_afogueado, $ans_suor, $ans_datahora,$pes_id)){
+
+
+	//header("Location: ../index.php?parte=03&adicionado=true");
+	echo 'Cadastro concluido';
+
+	}else{ 
+
+	//header("Location: adiciona-participante.php?adicionado=false");
+	$msg = mysqli_error($conexao);
+	echo $msg;
+		die();
+
+	}

@@ -40,3 +40,19 @@ $ana_aumento_libido = $_POST['ana_aumento_libido'];
 $ana_humor = $_POST['ana_humor'];
 $ana_testiculos = $_POST['ana_testiculos'];
 $ana_outros_sintomas = $_POST['ana_outros_sintomas'];
+
+
+if(insereAnabolizante($conexao, $ana_ja_usou, $ana_atualmente_usa, $ana_winstrol, $ana_dianabol, $ana_deca, $ana_oxandrin, $ana_depo, $ana_equipoise, $ana_durateston, $ana_outros_anabolizantes, $ana_tempo_usou, $ana_finalidade, $ana_outras_finalidade, $ana_usa_medicamento, $ana_efedrina, $ana_insulina, $ana_hepatoprotetor, $ana_clembuterol, $ana_diuretico, $ana_tamoxifeno, $ana_gh, $ana_outros_medicamentos, $ana_sintomas, $ana_pressao, $ana_nausea, $ana_espinhas, $ana_diminuicao_libido, $ana_depressao, $ana_dependencia, $ana_aumento_libido, $ana_humor, $ana_testiculos, $ana_outros_sintomas ,$ana_datahora,$pes_id)){
+
+
+	//header("Location: ../index.php?parte=03&adicionado=true");
+	echo 'Cadastro concluido';
+
+	}else{ 
+
+	//header("Location: adiciona-participante.php?adicionado=false");
+	$msg = mysqli_error($conexao);
+	echo $msg;
+		die();
+
+	}

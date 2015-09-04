@@ -60,3 +60,19 @@ $odt_fluor_creme = $_POST['odt_fluor_creme'];
 $odt_fluor_bochecho = $_POST['odt_fluor_bochecho'];
 $odt_fluor_agua = $_POST['odt_fluor_agua'];
 $odt_info = $_POST['odt_info'];
+
+
+if(insereOdontologico( $odt_dataex, $odt_excom, $odt_nfoi_dentista, $odt_nfoi_motivo, $odt_carie_familia, $odt_ganglios_dolorido, $odt_sangra_extrai, $odt_dores_nuca, $odt_zumbido, $odt_abrir_boca, $odt_estala_abre, $odt_estala_come, $odt_anestesia, $odt_reacao_anestesia, $odt_dor_dente, $odt_retencao_alimento, $odt_mastiga_lado, $odt_qual_lado, $odt_dor_ouvido, $odt_refrigerante, $odt_gengiva, $odt_protese, $odt_perdeu_dente, $odt_perdeu_dente_lado, $odt_cirurgia_pescoco, $odt_aparelho, $odt_usou_aparelho, $odt_usa_implate, $odt_canal, $odt_experiencia, $odt_qual_experiencia, $odt_ingere_alimentos, $odt_roi_unhas, $odt_respira_boca, $odt_chimarrao, $odt_chupa_bico_dedo, $odt_morde_caneta_lapis, $odt_range, $odt_apertar_boca, $odt_fio_dental, $odt_rangerdentes, $odt_quantas_fio, $odt_escovar, $odt_tipo_escova, $odt_quantas_escova, $odt_escova_interdental, $odt_palito, $odt_creme, $odt_fluor_gel, $odt_fluor_creme, $odt_fluor_bochecho, $odt_fluor_agua, $odt_info, $odt_datahora,$pes_id)){
+
+
+	//header("Location: ../index.php?parte=03&adicionado=true");
+	echo 'Cadastro concluido';
+
+	}else{ 
+
+	//header("Location: adiciona-participante.php?adicionado=false");
+	$msg = mysqli_error($conexao);
+	echo $msg;
+		die();
+
+	}

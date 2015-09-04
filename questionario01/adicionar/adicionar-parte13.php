@@ -29,3 +29,19 @@ $dep_peso = $_POST['dep_peso'];
 $dep_perder_peso = $_POST['dep_perder_peso'];
 $dep_preocupado_saude = $_POST['dep_preocupado_saude'];
 $dep_mudanca_sexo = $_POST['dep_mudanca_sexo'];
+
+
+]if(insereDepressao($conexao, $dep_triste, $dep_futuro, $dep_frac, $dep_prazer, $dep_punido, $dep_decepcionado, $dep_pior_outros, $dep_matar, $dep_choro, $dep_irritado, $dep_interesse, $dep_decisoes, $dep_pior_antes, $dep_trabalhar_antes, $dep_dormir_brm, $dep_cansado, $dep_apetite, $dep_peso, $dep_perder_peso, $dep_preocupado_saude, $dep_mudanca_sexo, $dep_datahora,$pes_id)){
+
+
+	//header("Location: ../index.php?parte=03&adicionado=true");
+	echo 'Cadastro concluido';
+
+	}else{ 
+
+	//header("Location: adiciona-participante.php?adicionado=false");
+	$msg = mysqli_error($conexao);
+	echo $msg;
+		die();
+
+	}

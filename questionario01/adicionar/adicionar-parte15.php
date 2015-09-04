@@ -23,3 +23,19 @@ $alc_tremores = $_POST['alc_tremores'];
 $alc_ajuda = $_POST['alc_ajuda'];
 $alc_hospitalizado = $_POST['alc_hospitalizado'];
 $alc_preso_multado = $_POST['alc_preso_multado'];
+
+
+if(insereAlcolismo($conexao, $alc_ja_bebeu, $alc_atualmente_bebe, $alc_frequencia, $alc_quantidade, $alc_quantidade_seix, $alc_deixou_beber, $alc_bebe_muito, $ $alc_parentes_acham, $alc_aa, $alc_perdeu_bebida, $alc_problema_trabalho, $alc_obrigacoes, $alc_tremores, $alc_hospitalizado, $alc_preso_multado ,$alc_datahora,$pes_id)){
+
+
+	//header("Location: ../index.php?parte=03&adicionado=true");
+	echo 'Cadastro concluido';
+
+	}else{ 
+
+	//header("Location: adiciona-participante.php?adicionado=false");
+	$msg = mysqli_error($conexao);
+	echo $msg;
+		die();
+
+	}
