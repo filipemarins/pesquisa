@@ -37,10 +37,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" id="1" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" id="2" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" id="3" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" id="4" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_triste" id="1" value="Não me sinto triste"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_triste" id="2" value="Eu me sinto triste"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_triste" id="3" value="Estou sempre triste e não consigo sair disto"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_triste" id="4" value="Estou tão triste ou infeliz que não consigo suportar"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -65,10 +65,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_futuro" value="Não estou especialmente desanimado quanto ao futuro"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_futuro" value="Eu me sinto desanimado quanto ao futuro"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_futuro" value="Acho que nada tenho a esperar"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_futuro" value="Acho o futuro sem espe-ranças e tenho a impres-são de que as coisas não podem melhorar"></td>
 				</tr>
 
 			</tbody>
@@ -94,10 +94,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_frac" value="Não me sinto um fracasso"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_frac" value="Acho que fracassei mais do que uma pessoa comum"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_frac" value="Quando olho pra trás, na minha vida, tudo o que posso ver é um monte de fracassos"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_frac" value="Acho que, como pessoa, sou um completo fracasso"></td>
 				</tr>
 
 			</tbody>
@@ -123,10 +123,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_prazer" value="Tenho tanto prazer em tudo como antes"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_prazer" value="Não sinto mais prazer nas coisas como antes"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_prazer" value="Não encontro um prazer real em mais nada"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_prazer" value="Estou insatisfeito ou aborrecido com tudo"></td>
 				</tr>
 
 			</tbody>
@@ -146,16 +146,16 @@
 					<td class="rdbtn">Não me sinto especial-mente culpado</td>
 					<td class="rdbtn">Eu me sinto culpado grande parte do tempo</td>
 					<td class="rdbtn">Eu me sinto culpado na maior parte do tempo</td>
-					<td class="rdbtn">Eu me sinto sempre cul-pado</td>
+					<td class="rdbtn">Eu me sinto sempre culpado</td>
 				</tr>
 			</thead>
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_culpado" value="Não me sinto especial-mente culpado"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_culpado" value="Eu me sinto culpado grande parte do tempo"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_culpado" value="Eu me sinto culpado na maior parte do tempo"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_culpado" value="Eu me sinto sempre cul-pado"></td>
 				</tr>
 
 			</tbody>
@@ -181,10 +181,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_punido" value="Não acho que esteja sendo punido"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_punido" value="Acho que posso ser punido"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_punido" value="Creio que vou ser punido"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_punido" value="Acho que estou sendo punido"></td>
 				</tr>
 
 			</tbody>
@@ -210,10 +210,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_decepcionado" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_decepcionado" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_decepcionado" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_decepcionado" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -239,10 +239,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_pior_outros" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_pior_outros" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_pior_outros" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_pior_outros" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -268,10 +268,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_matar" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_matar" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_matar" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_matar" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -297,10 +297,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_choro" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_choro" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_choro" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_choro" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -326,10 +326,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_irritado" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_irritado" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_irritado" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_irritado" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -355,10 +355,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_interesse" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_interesse" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_interesse" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_interesse" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -384,10 +384,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_decisoes" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_decisoes" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_decisoes" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_decisoes" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -413,10 +413,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_pior_antes" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_pior_antes" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_pior_antes" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_pior_antes" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -442,10 +442,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_trabalhar_antes" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_trabalhar_antes" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_trabalhar_antes" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_trabalhar_antes" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -471,10 +471,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_dormir_brm" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_dormir_brm" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_dormir_brm" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_dormir_brm" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -500,10 +500,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_cansado" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_cansado" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_cansado" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_cansado" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -529,10 +529,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_apetite" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_apetite" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_apetite" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_apetite" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -558,10 +558,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_perder_peso" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_perder_peso" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_perder_peso" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_perder_peso" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -583,8 +583,8 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_perder_peso" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_perder_peso" value="2"></td>
 				</tr>
 
 			</tbody>
@@ -610,10 +610,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_preocupado_saude" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_preocupado_saude" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_preocupado_saude" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_preocupado_saude" value="4"></td>
 				</tr>
 
 			</tbody>
@@ -639,10 +639,10 @@
 			<tbody class="list">
 
 				<tr>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="1"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="2"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="3"></td>
-				  <td class="rdbtn"><input type="radio" name="soc_contri" value="4"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_mudanca_sexo" value="1"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_mudanca_sexo" value="2"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_mudanca_sexo" value="3"></td>
+				  <td class="rdbtn"><input type="radio" name="dep_mudanca_sexo" value="4"></td>
 				</tr>
 
 			</tbody>

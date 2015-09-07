@@ -35,7 +35,11 @@ Dados Pessoais (dados_pessoais)
 	mul_postermo
 	pes_id
 
+<<<<<<< HEAD
 	------------Endereço---------------
+=======
+	------------EndereÃ§o---------------
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	
 	end_id
 	end_cep
@@ -47,7 +51,11 @@ Dados Pessoais (dados_pessoais)
 	pes_id
 	
 	
+<<<<<<< HEAD
 Dados da Mãe (dados_mae)
+=======
+Dados da MÃ£e (dados_mae)
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	mae_id
 	mae_nome
 	mae_datanascimento
@@ -98,7 +106,11 @@ Qualidade de vida PEDSQL
 
 	pes_id
 
+<<<<<<< HEAD
 Qualidade de vida – WHOQOL
+=======
+Qualidade de vida â€“ WHOQOL
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 
 	64 - who_avalia
 	65 - who_satsaude
@@ -128,7 +140,11 @@ Qualidade de vida – WHOQOL
 	89 - who_frequencianeg
 	pes_id
 
+<<<<<<< HEAD
 Atividade física
+=======
+Atividade fÃ­sica
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 
 	90 - atv_dias
 	91 - atv_tmpdia
@@ -201,7 +217,11 @@ Habitos Alimentares
 	149 - hab_motivodieta
 	150 - hab_infodieta
 
+<<<<<<< HEAD
 Doenças Pré-Existentes
+=======
+DoenÃ§as PrÃ©-Existentes
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 
 	151 - pre_dataex
 	151.1 - pre_excom
@@ -227,6 +247,10 @@ Doenças Pré-Existentes
 	168 - pre_avo
 	
 	169 - pre_coluna
+<<<<<<< HEAD
+=======
+	169.1 pre_coracao
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	170 - pre_articulacao
 	171 - pre_hernia
 	172 - pre_rim
@@ -245,7 +269,11 @@ Doenças Pré-Existentes
 	184 - pre_visao
 	185 - pre_flebite
 	186 - pre_artrite
+<<<<<<< HEAD
 	187 - pre_cancer
+=======
+	187 - pre_cardiopatia
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	188 - pre_cancer
 	189 - pre_tireoide
 	190 - pre_hipoglicemia
@@ -322,6 +350,10 @@ Odontologico
 	253 - odt_range
 	254 - odt_apertar_boca
 	255 - odt_fio_dental
+<<<<<<< HEAD
+=======
+	255.1 - odt_rangerdentes
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	256 - odt_quantas_fio
 	257 - odt_escovar
 	258 - odt_tipo_escova
@@ -335,7 +367,11 @@ Odontologico
 	266 - odt_fluor_agua
 	267 - odt_info
 
+<<<<<<< HEAD
 Avaliação Corporal
+=======
+AvaliaÃ§Ã£o Corporal
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	
 	268 - cop_satisfeito_corpo
 	269 - cop_gostaria_magro
@@ -344,7 +380,11 @@ Avaliação Corporal
 	271 - cop_ver_espelho
 	272 - cop_gostaria_ser
 
+<<<<<<< HEAD
 Avalização stress
+=======
+AvalizaÃ§Ã£o stress
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 
 	273 - sts_tensao
 	274 - sts_hiperacidez
@@ -359,7 +399,11 @@ Avalização stress
 	283 - sts_competencia_baixa
 	284 - sts_nada_vale
 	
+<<<<<<< HEAD
 Avalização de Depressão
+=======
+AvalizaÃ§Ã£o de DepressÃ£o
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	
 	285 - dep_triste
 	286 - dep_futuro
@@ -394,7 +438,11 @@ Ansiedade
 	312 - ans_tonto
 	313 - ans_palpitacao
 	314 - ans_equilibrio
+<<<<<<< HEAD
 	315 - ans_ateroorizado
+=======
+	315 - ans_aterrorizado
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	316 - ans_nervoso
 	317 - ans_sufocacao
 	318 - ans_tremores_mao
@@ -404,7 +452,11 @@ Ansiedade
 	322 - ans_morrer
 	323 - ans_assustado
 	324 - ans_ingestaro
+<<<<<<< HEAD
 	325 - ans_desmao
+=======
+	325 - ans_desmaio
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 	326 - ans_afogueado
 	327 - ans_suor
 
@@ -480,7 +532,11 @@ Tabagismo
 	381 - tab_media_fuma
 	382 - tab_frequencia
 
+<<<<<<< HEAD
 Drogas Ilícitas
+=======
+Drogas IlÃ­citas
+>>>>>>> daf8debff568411d8dd86afdd15bde1ab8e58fb3
 
 	383 - dro_uso_drogas
 	384 - dro_uso_atualmente
